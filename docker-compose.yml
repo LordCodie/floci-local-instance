@@ -1,5 +1,10 @@
-# All 100 services on :4566
-docker run -d --name floci \
-  -p 4566:4566 \
-  -v /var/run/docker.sock:/var/run/docker.sock \
-  floci/floci:latest
+services:
+  floci:
+    image: floci/floci:latest
+    ports:
+      - "4566:4566"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./data:/app/data
+    environment:
+      FLOCI_STORAGE_MODE: hybrid
