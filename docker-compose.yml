@@ -3,8 +3,8 @@ services:
     image: floci/floci:latest
     ports:
       - "4566:4566"
+    environment:
+      - LOCALSTACK_HOST=fictional-adventure-g44r9vqg79xxcwxr-4566.app.github.dev
+      - FLOCI_HOST=fictional-adventure-g44r9vqg79xxcwxr-4566.app.github.dev
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-      - ./data:/app/data
-    environment:
-      FLOCI_STORAGE_MODE: hybrid

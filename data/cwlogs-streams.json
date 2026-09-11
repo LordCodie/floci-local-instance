@@ -1,0 +1,12 @@
+{
+  "000000000000/us-east-1::/floci/ui::2026/09/11/7c70c049" : {
+    "logGroupName" : "/floci/ui",
+    "logStreamName" : "2026/09/11/7c70c049",
+    "createdTime" : 1789129270533,
+    "firstEventTimestamp" : 1789129270965,
+    "lastEventTimestamp" : 1789130003945,
+    "lastIngestionTime" : 1789130003945,
+    "uploadSequenceToken" : "1d29bc27-2411-430a-a588-abe8ffda115c",
+    "storedBytes" : 423
+  }
+}

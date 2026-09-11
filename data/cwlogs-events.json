@@ -1,0 +1,65 @@
+{
+  "000000000000/us-east-1::/floci/ui::2026/09/11/7c70c049::001789129270965::d352b5b1-97cc-46c0-bcf3-34125464d9ed" : {
+    "eventId" : "d352b5b1-97cc-46c0-bcf3-34125464d9ed",
+    "timestamp" : 1789129270965,
+    "message" : "Started development server: http://localhost:4500",
+    "ingestionTime" : 1789129270965,
+    "sequence" : 1
+  },
+  "000000000000/us-east-1::/floci/ui::2026/09/11/7c70c049::001789129273575::5cbb4a30-034e-484a-8e81-00810231acbe" : {
+    "eventId" : "5cbb4a30-034e-484a-8e81-00810231acbe",
+    "timestamp" : 1789129273575,
+    "message" : "<-- GET /",
+    "ingestionTime" : 1789129273575,
+    "sequence" : 2
+  },
+  "000000000000/us-east-1::/floci/ui::2026/09/11/7c70c049::001789130003944::7893f79a-1778-4345-9034-17fcf20e141f" : {
+    "eventId" : "7893f79a-1778-4345-9034-17fcf20e141f",
+    "timestamp" : 1789130003944,
+    "message" : "<-- GET /",
+    "ingestionTime" : 1789130003944,
+    "sequence" : 8
+  },
+  "000000000000/us-east-1::/floci/ui::2026/09/11/7c70c049::001789129336602::e1194198-3b4e-4ef6-8566-8f6d379a25b2" : {
+    "eventId" : "e1194198-3b4e-4ef6-8566-8f6d379a25b2",
+    "timestamp" : 1789129336602,
+    "message" : "--> GET / \u001B[32m200\u001B[0m 1ms",
+    "ingestionTime" : 1789129336603,
+    "sequence" : 5
+  },
+  "000000000000/us-east-1::/floci/ui::2026/09/11/7c70c049::001789129941477::d378a8e2-dabf-402b-8cd3-70b9397ccc22" : {
+    "eventId" : "d378a8e2-dabf-402b-8cd3-70b9397ccc22",
+    "timestamp" : 1789129941477,
+    "message" : "<-- GET /",
+    "ingestionTime" : 1789129941477,
+    "sequence" : 6
+  },
+  "000000000000/us-east-1::/floci/ui::2026/09/11/7c70c049::001789129336602::2b3245de-b18e-42e4-8548-bc07008593ef" : {
+    "eventId" : "2b3245de-b18e-42e4-8548-bc07008593ef",
+    "timestamp" : 1789129336602,
+    "message" : "<-- GET /",
+    "ingestionTime" : 1789129336602,
+    "sequence" : 4
+  },
+  "000000000000/us-east-1::/floci/ui::2026/09/11/7c70c049::001789129941478::4168f3e5-4bbb-4dd8-8f72-919ac1c13169" : {
+    "eventId" : "4168f3e5-4bbb-4dd8-8f72-919ac1c13169",
+    "timestamp" : 1789129941478,
+    "message" : "--> GET / \u001B[32m200\u001B[0m 1ms",
+    "ingestionTime" : 1789129941478,
+    "sequence" : 7
+  },
+  "000000000000/us-east-1::/floci/ui::2026/09/11/7c70c049::001789129273576::f8fcc00d-70b3-4f37-a486-34dee4599ed3" : {
+    "eventId" : "f8fcc00d-70b3-4f37-a486-34dee4599ed3",
+    "timestamp" : 1789129273576,
+    "message" : "--> GET / \u001B[32m200\u001B[0m 3ms",
+    "ingestionTime" : 1789129273577,
+    "sequence" : 3
+  },
+  "000000000000/us-east-1::/floci/ui::2026/09/11/7c70c049::001789130003945::79ecc4b2-b7ae-423d-83f9-e0144e060e9b" : {
+    "eventId" : "79ecc4b2-b7ae-423d-83f9-e0144e060e9b",
+    "timestamp" : 1789130003945,
+    "message" : "--> GET / \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1789130003945,
+    "sequence" : 9
+  }
+}
