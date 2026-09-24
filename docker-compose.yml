@@ -4,7 +4,7 @@ services:
     ports:
       - "4566:4566"
     environment:
-      - LOCALSTACK_HOST=fictional-adventure-g44r9vqg79xxcwxr-4566.app.github.dev
-      - FLOCI_HOST=fictional-adventure-g44r9vqg79xxcwxr-4566.app.github.dev
+      - LOCALSTACK_HOST=https://shiny-engine-r44695gjpjw5cprv4-4500.app.github.dev
+      - FLOCI_HOST=https://shiny-engine-r44695gjpjw5cprv4-4566.app.github.dev
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
