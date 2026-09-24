@@ -4,7 +4,7 @@ services:
     ports:
       - "4566:4566"
     environment:
-      - LOCALSTACK_HOST=https://shiny-engine-r44695gjpjw5cprv4-4500.app.github.dev
-      - FLOCI_HOST=https://shiny-engine-r44695gjpjw5cprv4-4566.app.github.dev
+      - LOCALSTACK_HOST=floci
+      - FLOCI_HOST=floci
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
